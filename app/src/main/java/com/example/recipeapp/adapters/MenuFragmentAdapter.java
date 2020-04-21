@@ -26,8 +26,8 @@ public class MenuFragmentAdapter extends FragmentStatePagerAdapter {
     }
 
     @Override    public CharSequence getPageTitle(int position) {        switch (position){
-        case 0: return "Tab 1";
-        case 1: return "Tab 2";
+        case 0: return "Recipe Menu";
+        case 1: return "Favorite Recipe";
         default: return null;
     }
     }
